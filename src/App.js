@@ -10,6 +10,7 @@ import Header from './Components/Common/Header/Header';
 import Home from './Components/Home/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Appoinment from './Components/Appoinment/Appoinment';
+import Counter from './Components/ReducerCount/ReducerCount';
 function App() {
   return (
     <Router> 
@@ -27,6 +28,7 @@ function App() {
           </Route>
           <Route exect path="/">
             <Home></Home>
+            <Counter></Counter>
           </Route>
         </Switch>
       </div>

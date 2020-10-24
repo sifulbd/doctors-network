@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import heroImng from "../../../assets/images/hero.png";
+import PatientManagement from '../../PatientManagement/PatientManagement';
 
 const Hero = () => {
     return (
@@ -23,5 +24,6 @@ const Hero = () => {
         </Container>
     );
 };
+
 
 export default Hero;
