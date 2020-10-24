@@ -15,7 +15,7 @@ const Appoinment = () => {
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio dolores vel sunt ullam voluptatem, 
                         nihil optio repudiandae eveniet saepe. Exercitationem accusantium saepe 
                         sint omnis perferendis quia necessitatibus dolor, esse ut.</p>
-                        <Button>Learn More</Button>
+                        <Button>Read More</Button>
                     </div>
                 </Col>
             </Row>
