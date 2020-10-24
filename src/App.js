@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Appoinment from './Components/Appoinment/Appoinment';
 function App() {
   return (
-    <Router>
+    <Router> 
       <div>
         <Header></Header>
 
