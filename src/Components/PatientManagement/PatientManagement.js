@@ -26,7 +26,7 @@ export default function PatientManagement() {
           })}>{pt.name}</li>) : ''}
       </ul>
       <Form onSubmit={handleSubmit}>
-          <input ref={nameRef}></input>
+          <input ref={nameRef}> </input>
       </Form>
     </div>
   );
