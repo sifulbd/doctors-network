@@ -13,7 +13,7 @@ export default function PatientManagement() {
             name: nameRef.current.value,
             id: state.patients.length + 1
         })
-        nameRef.current.value = ' '
+        nameRef.current.value = ''
 
     }
   return (
