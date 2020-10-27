@@ -21,8 +21,8 @@ export default function PatientManagement() {
       <h1>Patient Management {state.patients.length ? state.patients.length : 0}</h1>
       <ul>
           { state.patients ? state.patients.map( pt => <li key={pt.id} onClick={ () => dispatch({
-             type: 'REMOVE_PATIENT', 
-             id: pt.id
+            type: 'REMOVE_PATIENT', 
+            id: pt.id
           })}>{pt.name}</li>) : ''}
       </ul>
       <Form onSubmit={handleSubmit}>
