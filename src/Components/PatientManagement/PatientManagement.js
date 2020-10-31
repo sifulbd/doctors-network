@@ -11,7 +11,7 @@ export default function PatientManagement() {
       dispatch({
           type: 'ADD_PATIENT',
           name: nameRef.current.value,
-          id: state.patients.length + 1
+          id: state.patients.length + 1 
       })
       nameRef.current.value = ''
 
